@@ -24,6 +24,7 @@ public class SpringDataJpaHibernateExampleApplicationTests {
     @Autowired
     MockMvc mockMvc;
 
+    @Autowired
     @MockBean
     UserRepository userRepository;
 
