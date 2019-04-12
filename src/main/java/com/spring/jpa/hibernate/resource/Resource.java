@@ -10,6 +10,7 @@ import java.util.List;
 @RequestMapping("/all")
 public class Resource {
 
+    @Autowired
     private UserRepository usersRepository;
 
     public Resource(UserRepository usersRepository) {
