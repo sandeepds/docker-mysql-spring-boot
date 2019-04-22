@@ -9,4 +9,5 @@ public class SpringDataJpaHibernateExampleApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringDataJpaHibernateExampleApplication.class, args);
 	}
+	//System.out.println("Main Class")
 }
